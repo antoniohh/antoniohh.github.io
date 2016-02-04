@@ -1,0 +1,154 @@
+<?php
+
+/**
+ * Copyright 2016 AntonioHH.
+ *
+ * This work is licensed under the 
+ * Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+ * To view a copy of this license, visit 
+ *
+ *      http://creativecommons.org/licenses/by-nc-nd/3.0/
+ *
+ * or send a letter to Creative Commons, 444 Castro Street, Suite 900, 
+ * Mountain View, California, 94041, USA.
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+?>
+
+        <!-- Sección Formación -->
+        <div class="section-modal modal fade" id="formacion-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <h3>Formación</h3>
+                            <p>Formación Académica.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-8 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-mortar-board"></i>
+                                <div class="feature-content">
+                                    <h4>Grado Superior DAW.</h4>
+                                    <p>Técnico Superior en Desarrollo de Aplicaciones Web. IES Albarregas. Mérida 2013 - 2015.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-8 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-university"></i>
+                                <div class="feature-content">
+                                    <h4>Ingeniería Técnica Agrícola.</h4>
+                                    <p>Pendiente último Curso. Especialidad en Industrias Agrarias. Escuela de Ingenierías Agrarias de la Universidad de Extremadura.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-8 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-mortar-board"></i>
+                                <div class="feature-content">
+                                    <h4>Título de Bachiller, COU y Selectividad.</h4>
+                                    <p>Instituto de Bachillerato Rodríguez Moñino. Badajoz 1990 - 1995.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="section-title text-center">
+                            <p>Formación Complementaria.</p>
+                        </div>
+                    </div>                       
+                    <div class="row">    
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-html5"></i>
+                                <div class="feature-content">
+                                    <h4>Introducción al Desarrollo Web.</h4>
+                                    <p>Curso del Instituto de Economía Internacional de la Universitat d’Alacant (UA) "Introducción al Desarrollo Web", de 40 horas, 
+                                        en Diciembre de 2015.</p>
+                                    <p>Módulos:</p>
+                                    <ul>
+                                        <li>Historia de la Web.</li>
+                                        <li>Cómo funciona la Web.</li>
+                                        <li>Cómo se escribe una página web.</li>
+                                        <li>Cómo se publica un sitio web.</li>
+                                        <li>Cómo se escribe una página web correcta.</li>                                          
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-power-off"></i>
+                                <div class="feature-content">
+                                    <h4>Productividad Personal en la Era Digital.</h4>
+                                    <p>Curso de la Fundación Santa María la Real "Productividad Personal en la Era Digital", de 40 horas, en Noviembre de 2015.</p>
+                                    <p>Módulos:</p>
+                                    <ul>
+                                        <li>Plan estratégico y de acción.</li>
+                                        <li>Marca personal y reputación online.</li>
+                                        <li>Comunicación 2.0 y redes sociales.</li>
+                                        <li>Trabajo en equipo y groupware tools.</li>
+                                        <li>Generación creativa de ideas.</li>
+                                        <li>Herramientas para el análisis de problemas.</li>
+                                        <li>Gestión del tiempo.</li>
+                                        <li>Presentaciones eficaces.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-mobile-phone"></i>
+                                <div class="feature-content">
+                                    <h4>Programación de apps Móviles.</h4>
+                                    <p>Curso de la Universidad Complutense de Madrid "Programación de apps Móviles", de 40 horas, en Noviembre de 2015. Conocimientos generales 
+                                        en todas las áreas de la Programación de Apps Móviles.</p>
+                                    <p>Módulos:</p>
+                                    <ul>
+                                        <li>Del nacimiento del teléfono móvil a las apps.</li>
+                                        <li>Diseño y creación de apps.</li>
+                                        <li>Plataformas de desarrollo - Android.</li>
+                                        <li>Plataformas de desarrollo - iOS.</li>
+                                        <li>Plataformas de desarrollo - Desarrollo multi-plataforma.</li>
+                                        <li>La industria de las apps.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature">
+                                <i class="fa fa-desktop"></i>
+                                <div class="feature-content">
+                                    <h4>Comunicación de ordenadores y Redes Locales.</h4>
+                                    <p>Curso "Plan FIP" de la Junta de Extremadura "Comunicación de ordenadores y Redes Locales", de 350 horas, en 17 de Julio hasta 31 de Octubre 
+                                        de 2000.</p>
+                                    <p>Módulos:</p>
+                                    <ul>   
+                                        <li>Sistemas operativos Windows.</li>
+                                        <li>Comunicación de Ordenadores y Redes Locales.</li>
+                                        <li>Internet.</li>
+                                        <li>Intranet.</li>
+                                        <li>Servidores: Web, FTP, Mail, Proxy.</li>
+                                        <li>HTML, Flash, Dreamwaver.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.row -->
+                </div>
+            </div>
+        </div>
+        <!-- Sección Formación -->
