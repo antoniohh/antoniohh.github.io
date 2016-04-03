@@ -1,5 +1,5 @@
 body {
-    background: url(../img/fondo/fondo.jpg) no-repeat;
+    background: url(../img/fondo/fondo.png) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -924,3 +924,51 @@ and (max-width : 991px) {
     padding: 20px;
     color: #fff;
 }
+
+/**** End Testimonial Section ****/
+
+/**** Inicio Seccion Div Social ****/
+
+.social {
+    position: fixed; /* posición en pantalla fija */
+    left: 0; /* Izquierda */
+    top: 300px; /* Bajamos la barra */
+    z-index: 2000; /* Propiedad z-index para que no se superponga algún otro elemento */
+}
+
+.social li {
+    /*display: inline-block;*/
+    padding: 15px;
+}
+
+@media only screen and (max-width : 360px) {
+    .social li {
+        padding: 0 5px;
+    }
+}
+
+.social li a {
+    background: #FF432E;
+    padding: 8px;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #FF432E;
+    
+}
+
+.social li i {
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.social li:hover a {
+    background: #fff;
+    border: 1px solid #FF432E;
+    color: #666;
+}
+
+/**** Fin Seccion Div Social ****/
