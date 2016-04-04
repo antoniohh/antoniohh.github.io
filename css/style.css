@@ -1,5 +1,5 @@
 body {
-    background: url(../img/fondo/fondo.png) no-repeat;
+    background: url(../img/fondo/fondo.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -117,6 +117,7 @@ fieldset[disabled] .btn-primary.active {
 
 .logo span {
     color: #999;
+    color: #fff;   
     margin-bottom: 30px;
 }
 
@@ -184,7 +185,7 @@ fieldset[disabled] .btn-primary.active {
 	
 }
 
-.menu-item:hover{
+.menu-item:hover {
     /*border: 5px solid rgba(255, 255, 255, 0.70);*/
     /*border: 5px solid #333;*/
 }
@@ -235,8 +236,8 @@ and (max-width : 991px) {
     .menu-item.responsive-2 {
         width: 49.5%;
         float: right;
-    }
-    
+    }  
+
 }
 
 @media only screen 
@@ -255,7 +256,7 @@ and (max-width : 1199px) {
     .menu-item a p {
         font-size: 16px;
     }
-    
+
 }
 
 .home-slider img {
@@ -933,18 +934,12 @@ and (max-width : 991px) {
     position: fixed; /* posición en pantalla fija */
     left: 0; /* Izquierda */
     top: 300px; /* Bajamos la barra */
-    z-index: 2000; /* Propiedad z-index para que no se superponga algún otro elemento */
+    /* z-index: 2000;  Propiedad z-index para que no se superponga algún otro elemento */
 }
 
 .social li {
     /*display: inline-block;*/
     padding: 15px;
-}
-
-@media only screen and (max-width : 360px) {
-    .social li {
-        padding: 0 5px;
-    }
 }
 
 .social li a {
@@ -956,19 +951,22 @@ and (max-width : 991px) {
     -o-border-radius: 2px;
     border-radius: 2px;
     border: 1px solid #FF432E;
-    
+        -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .social li i {
-    font-size: 15px;
+    font-size: 18px;
     width: 20px;
     height: 20px;
 }
 
 .social li:hover a {
-    background: #fff;
+    /*background: #fff;*/
+    background: #FF432E;  
     border: 1px solid #FF432E;
-    color: #666;
+    /*color: #666;*/
+    color: #333;
 }
 
 /**** Fin Seccion Div Social ****/
